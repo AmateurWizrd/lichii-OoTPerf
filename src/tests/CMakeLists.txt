@@ -55,6 +55,7 @@ add_executable(tests
     video_core/maxwell_numeric.cpp
     video_core/maxwell_permute_lod.cpp
     video_core/submission_policy.cpp
+    video_core/native_pending_policy.cpp
     video_core/framebuffer_clear_layers.cpp
     video_core/framebuffer_limits.cpp
     video_core/fire_emblem_upscale.cpp
@@ -106,6 +107,7 @@ add_executable(tests
     video_core/spirv_builtin_capabilities.cpp
     video_core/spirv_min_max_denorms.cpp
     video_core/spirv_nan_safe_min_max.cpp
+    video_core/virtual_range_cache.cpp
     common/bit_field.cpp
     common/cityhash.cpp
     common/container_hash.cpp
