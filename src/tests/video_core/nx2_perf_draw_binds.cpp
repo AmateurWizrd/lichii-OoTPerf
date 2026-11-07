@@ -20,8 +20,7 @@
 
 namespace {
 
-// UsageTracker::Track before the full-page run, with the per-block masks of e8be5d3d (every
-// 64-byte block a range touches; nothing for an empty range).
+// UsageTracker::Track before the full-page run, with the same per-page masks.
 class OldUsageTracker {
     static constexpr size_t BUFFER_BYTES_PER_BITSHIFT = 6;
     static constexpr size_t BUFFER_PAGE_SHIFT = 6 + BUFFER_BYTES_PER_BITSHIFT;
